@@ -8,7 +8,7 @@ import { toast } from 'sonner';
 const Chat = () => {
   const [message, setMessage] = useState('');
   const [chatHistory, setChatHistory] = useState([
-    { role: 'assistant', content: 'Welcome to Dicsy AI! Ask me anything about DeFi, yields, and portfolio optimization 🚀' }
+    { role: 'assistant', content: 'Welcome to YieldMind AI! Ask me anything about DeFi, yields, and portfolio optimization 🚀' }
   ]);
 
   const handleSendMessage = () => {
@@ -23,7 +23,7 @@ const Chat = () => {
         ...prev,
         {
           role: 'assistant',
-          content: `Great question about "${message}". Dicsy AI reviews thousands of market signals and top protocols every hour. For instant yield, consider USDC staking, or let me calculate multi-token optimization for you!`
+          content: `Great question about "${message}". YieldMind AI reviews thousands of market signals and top protocols every hour. For instant yield, consider USDC staking, or let me calculate multi-token optimization for you!`
         }
       ]);
       toast.success('AI generated a suggestion', {
@@ -53,7 +53,7 @@ const Chat = () => {
                 {msg.role === 'assistant' && (
                   <div className="flex items-center mb-2 text-defi-accent">
                     <Bot size={16} className="mr-2" />
-                    <span className="font-semibold">Dicsy AI</span>
+                    <span className="font-semibold">YieldMind AI</span>
                   </div>
                 )}
                 <p>{msg.content}</p>

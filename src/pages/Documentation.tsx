@@ -7,7 +7,7 @@ const documentationSections = [
   {
     title: 'Getting Started',
     subsections: [
-      { id: 'intro', title: 'Introduction to Dicsy' },
+      { id: 'intro', title: 'Introduction to YieldMind' },
       { id: 'setup', title: 'Setting Up Your Account' },
       { id: 'first-steps', title: 'Your First Strategy' },
     ]
@@ -45,12 +45,12 @@ const docContent: Record<string, React.ReactNode> = {
   intro: (
     <>
       <p>
-        Dicsy is your personal AI-powered DeFi agent—built to help you maximize yield and manage risk automatically.
+        YieldMind is your personal AI-powered DeFi agent—built to help you maximize yield and manage risk automatically.
       </p>
       <p>
-        With Dicsy, you can simulate, deploy, and monitor strategies across multiple protocols in a unified platform.
+        With YieldMind, you can simulate, deploy, and monitor strategies across multiple protocols in a unified platform.
       </p>
-      <h3>Why Dicsy?</h3>
+      <h3>Why YieldMind?</h3>
       <ul>
         <li>AI-driven opportunity scanning</li>
         <li>No-code automation</li>
@@ -81,7 +81,7 @@ const docContent: Record<string, React.ReactNode> = {
         <li>Click <strong>Simulate</strong> to preview results.</li>
         <li>When satisfied, <strong>Deploy</strong> the strategy live!</li>
       </ol>
-      <p>Dicsy automatically optimizes and balances strategies for you.</p>
+      <p>YieldMind automatically optimizes and balances strategies for you.</p>
     </>
   ),
   'defi-basics': (
@@ -117,7 +117,7 @@ const docContent: Record<string, React.ReactNode> = {
         Yield farming involves moving assets between protocols to chase the best returns, often using auto-compounding or leverage.
       </p>
       <ul>
-        <li>Use platforms like Dicsy for automated farming.</li>
+        <li>Use platforms like YieldMind for automated farming.</li>
         <li>Combine incentives, governance, and trading fees.</li>
         <li>Balance risk vs. reward with portfolio analytics.</li>
       </ul>
@@ -184,7 +184,7 @@ const docContent: Record<string, React.ReactNode> = {
     <>
       <h3>Risk Management</h3>
       <p>
-        Dicsy includes built-in risk scoring, stop-loss automation, and DeFi best practices to protect your capital.
+        YieldMind includes built-in risk scoring, stop-loss automation, and DeFi best practices to protect your capital.
       </p>
       <ul>
         <li>Set maximum loss and drawdown alerts.</li>
@@ -331,15 +331,15 @@ const Documentation = () => {
               <>
                 <div className="flex items-center gap-2 mb-6">
                   <FileText className="text-defi-accent w-5 h-5" />
-                  <h2 className="text-lg font-semibold text-white">Dicsy Documentation</h2>
+                  <h2 className="text-lg font-semibold text-white">YieldMind Documentation</h2>
                 </div>
                 <p className="text-white/80 mb-6">
-                  Welcome to Dicsy documentation. Select a topic from the sidebar or search for DeFi topics to get started.
+                  Welcome to YieldMind documentation. Select a topic from the sidebar or search for DeFi topics to get started.
                 </p>
                 <h3 className="font-medium text-white mb-3">Popular Topics</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {[
-                    { id: 'intro', title: 'Introduction to Dicsy', section: 'Getting Started' },
+                    { id: 'intro', title: 'Introduction to YieldMind', section: 'Getting Started' },
                     { id: 'setup', title: 'Setting Up Your Account', section: 'Getting Started' },
                     { id: 'defi-basics', title: 'DeFi Basics', section: 'Core Concepts' },
                     { id: 'dashboard', title: 'Dashboard Overview', section: 'Platform Guide' },

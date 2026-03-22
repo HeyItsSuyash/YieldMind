@@ -64,7 +64,7 @@ const Sidebar = () => {
           <span className="rounded-full bg-[#222843] p-2">
             <Brain className="w-6 h-6 text-defi-accent" />
           </span>
-          <span className="font-semibold text-xl text-white tracking-tight font-sans">Dicsy</span>
+          <span className="font-semibold text-xl text-white tracking-tight font-sans">YieldMind</span>
         </div>
         <nav className="flex flex-col mt-2 gap-0">
         {links.map((item, idx) => {

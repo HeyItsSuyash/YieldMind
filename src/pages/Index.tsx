@@ -10,7 +10,7 @@ import ActivityLog from '@/components/ActivityLog';
 
 const Index = () => {
   return (
-    <PageLayout title="Welcome to Dicsy Dashboard" subtitle="Your AI-powered DeFi optimization center">
+    <PageLayout title="Welcome to YieldMind Dashboard" subtitle="Your AI-powered DeFi optimization center">
       <SearchBar />
       <QuickActions />
 

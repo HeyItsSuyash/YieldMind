@@ -48,7 +48,7 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent className="bg-[#151926] border-[#232946] text-white sm:max-w-[500px]">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold text-white">Welcome to Dicsy</DialogTitle>
+          <DialogTitle className="text-2xl font-bold text-white">Welcome to YieldMind</DialogTitle>
           <DialogDescription className="text-white/80">
             Your AI-powered DeFi assistant for optimizing crypto investments
           </DialogDescription>

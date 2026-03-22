@@ -44,7 +44,7 @@ const Landing = () => {
   };
 
   const handleGetStarted = () => {
-    toast.success("Welcome to Dicsy!", {
+    toast.success("Welcome to YieldMind!", {
       description: "Let's optimize your DeFi investments together."
     });
   };
@@ -59,7 +59,7 @@ const Landing = () => {
     {
       name: "Sarah Johnson",
       role: "DeFi Investor",
-      comment: "Dicsy has transformed how I manage my DeFi investments. The AI recommendations are spot-on!",
+      comment: "YieldMind has transformed how I manage my DeFi investments. The AI recommendations are spot-on!",
       rating: 5,
       image: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah"
     },
@@ -147,7 +147,7 @@ const Landing = () => {
 
       <nav className="w-full px-6 py-5 lg:px-8 border-b border-white/5 backdrop-blur-md fixed top-0 z-50 transition-all duration-300" style={{ backgroundColor: scrollY > 50 ? 'rgba(0, 11, 29, 0.95)' : 'transparent' }}>
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <Link to="/" className="text-2xl font-bold tracking-tight bg-gradient-to-r from-[#4361EE] via-[#e1e1ff] to-[#89a5ff] bg-clip-text text-transparent transition-all duration-500 hover:from-[#89a5ff] hover:to-[#4361EE]">DICSY</Link>
+          <Link to="/" className="text-2xl font-bold tracking-tight bg-gradient-to-r from-[#4361EE] via-[#e1e1ff] to-[#89a5ff] bg-clip-text text-transparent transition-all duration-500 hover:from-[#89a5ff] hover:to-[#4361EE]">YIELDMIND</Link>
           <div className="hidden md:flex items-center gap-8">
             <Link 
               to="/product" 
@@ -240,7 +240,7 @@ const Landing = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-[#000B1D] to-transparent z-10 w-32 left-0" />
             <img 
               src="/lovable-uploads/1e6c6aef-56b6-4f72-97a1-db58fd689fd6.png" 
-              alt="Dicsy Dashboard Preview" 
+              alt="YieldMind Dashboard Preview" 
               className="rounded-lg shadow-2xl border border-white/10 hover:border-white/20 transition-all duration-500 hover:scale-[1.02] hover:shadow-xl hover:shadow-[#4361EE]/20 relative z-0"
             />
             
@@ -547,7 +547,7 @@ const Landing = () => {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-white/5 text-white/60">
-            © 2024 Dicsy. All rights reserved.
+            © 2024 YieldMind. All rights reserved.
           </div>
         </div>
       </footer>
